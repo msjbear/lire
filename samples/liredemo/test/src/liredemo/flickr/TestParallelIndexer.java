@@ -34,11 +34,14 @@ import junit.framework.TestCase;
 import liredemo.indexing.MetadataBuilder;
 import liredemo.indexing.ParallelIndexer;
 import net.semanticmetadata.lire.*;
+import net.semanticmetadata.lire.imageanalysis.SurfFeature;
+import net.semanticmetadata.lire.imageanalysis.bovw.BOVWBuilder;
 import net.semanticmetadata.lire.impl.ChainedDocumentBuilder;
 import net.semanticmetadata.lire.impl.SurfDocumentBuilder;
 import net.semanticmetadata.lire.impl.VisualWordsImageSearcher;
 import net.semanticmetadata.lire.utils.FileUtils;
 import net.semanticmetadata.lire.utils.LuceneUtils;
+
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexReader;
